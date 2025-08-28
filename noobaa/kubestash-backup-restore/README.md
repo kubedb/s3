@@ -11,3 +11,9 @@
    
 
 ### Workaround for Noobaa Backup/Restore
+
+```bash
+kubectl create secret generic noobaa-external-pg-db \
+              --namespace=noobaa \
+              --from-literal=db_url='postgres://postgres:Lg73qGD.YMVB838F@10.2.0.81:5432/nbcore'
+```
