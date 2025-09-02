@@ -11,6 +11,6 @@ spec:
   externalPgSecret:
     name: noobaa-external-pg-db
     namespace: noobaa
-#  image: noobaa/noobaa-core:master-20240520
-  image: noobaa/noobaa-core:master-20250521
+  image: noobaa/noobaa-core:master-20240520
+#  image: noobaa/noobaa-core:master-20250521
   manualDefaultBackingStore: true
